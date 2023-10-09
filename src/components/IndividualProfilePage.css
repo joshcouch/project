@@ -1,0 +1,51 @@
+.profile-page {
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    text-align: left;
+}
+
+.profile-picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    max-height: 300px;
+}
+
+.profile-picture img {
+    object-position: center;
+    object-fit: cover;  /* Scales and crops the image */
+    width: 100%;  /* Covers the width of the container */
+    height: 100%;  /* Covers the height of the container */
+    filter: drop-shadow(2px 2px 2px #8a8a8a);
+    border-radius: 2%;
+}
+
+.profile-info .profile-detail,
+.profile-photos {
+    margin-bottom: 20px;
+}
+
+.photos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.photo {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
